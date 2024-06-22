@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+           
+            <aside class="as">
+                <div class="rlogo">
+                    <img src="./images/rest.png" alt="Restaurant Logo" class="logo">
+                    <h3 text align="center">Your Restaurant Menu</h3>
+                    <h6 text align="center" style="color: red;">Your Slogan</h6>
+                </div>
+                <div class="links">
+                <h4 style="text-align: center;">Quick Links</h4>
+                <nav class="nav-column">
+                    <a class="nav-link active" href="#">1.Home</a>
+                    <a class="nav-link" href="#">2.Your Orders</a>
+                    <a class="nav-link" href="#">3.Wallet</a>
+                    <a class="nav-link" href="#">4.Profile</a>
+                    <a class="nav-link" href="#">5.Logout</a>
+                </nav>
+                <h4 style="text-align: center;">More About Us</h4>
+                <nav class="nav-column">
+                    <a class="nav-link active" href="#">1.Our blog</a>
+                    <a class="nav-link" href="#">2.Upcoming Dishes</a>
+                    <a class="nav-link" href="#">3.Our Story</a>
+                    <a class="nav-link" href="#">4.Social Media Links</a>
+                </nav>
+            </div>
+            </aside>
+
+            <div class="col-md-9 p-4">
+                <header class="header-top mb-4">
+                    <div class="search-container">
+                        <div class="input-group">
+                            <input type="text" id="searchBar" class="form-control" placeholder="Search Food Item">
+                         </div>
+                    </div>
+                    <div class="user-actions ml-auto">
+                        <button class="Button" id="signupButton" style="background-color: red;">Sign Up</button>
+                        <button class="Button" id="loginButton" style="background-color: red;">Login</button>
+                        <img src="./images/rest.png" alt="User Avatar" class="user-avatar">
+                    </div>
+                </header>
+                <img src="./images/img.png" style="width: 1100px; height:300px; border-radius:30px;">
+                
+                <h4>Menu</h4>
+                <div class="menu row" id="menuItems">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
